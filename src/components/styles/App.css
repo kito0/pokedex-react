@@ -6,7 +6,7 @@
   height: 400px;
   padding-left: 10px;
   margin: 50px auto;
-  background-color: black;
+  background-color: rgb(17, 16, 16);
   border-radius: 10px;
-  box-shadow: 0 14px 45px rgba(0, 0, 0, 0.22), 0 18px 45px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 45px rgba(39, 15, 15, 0.678), 0 18px 45px rgba(3, 3, 3, 0.562);
 }
