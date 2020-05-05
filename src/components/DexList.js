@@ -3,13 +3,14 @@ import DexCell from './DexCell';
 import { dexClasses } from '../dexClasses';
 import './styles/DexList.css';
 
-const DexList = () => {
+const DexList = ({ handleOnClick }) => {
     const cells = dexClasses.map(dexClass => {
         return (
-            <DexCell>
+            <DexCell
                 key={dexClass.id}
                 dexClass={dexClass}
-            </DexCell>
+                handleOnClick={handleOnClick}
+            />
         );
     });
 
